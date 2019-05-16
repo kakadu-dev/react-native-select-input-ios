@@ -1,17 +1,13 @@
 import PropTypes from 'prop-types'
-import { TextStylePropTypes, ViewPropTypes } from 'react-native'
+import { Text, ViewPropTypes } from 'react-native'
 
 export default {
-  buttonsTextStyle: PropTypes.oneOfType([
-    PropTypes.arrayOf(TextStylePropTypes)
-  ]),
+  buttonsTextStyle: Text.propTypes.style,
   buttonsViewStyle: PropTypes.oneOfType([
     ViewPropTypes.style,
     PropTypes.arrayOf(ViewPropTypes.style)
   ]),
-  pickerItemStyle: PropTypes.oneOfType([
-    PropTypes.arrayOf(TextStylePropTypes)
-  ]),
+  pickerItemStyle: Text.propTypes.style,
   pickerViewStyle: PropTypes.oneOfType([
     ViewPropTypes.style,
     PropTypes.arrayOf(ViewPropTypes.style)
