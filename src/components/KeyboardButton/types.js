@@ -4,7 +4,6 @@ import { TextStylePropTypes } from 'react-native'
 export default {
   onPress: PropTypes.func.isRequired,
   style: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   text: PropTypes.string.isRequired,

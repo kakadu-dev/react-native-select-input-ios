@@ -8,7 +8,6 @@ export default {
   cancelKeyText: PropTypes.string,
   submitKeyText: PropTypes.string,
   buttonsTextStyle: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   buttonsViewStyle: PropTypes.oneOfType([
@@ -16,7 +15,6 @@ export default {
     PropTypes.arrayOf(ViewPropTypes.style)
   ]),
   pickerItemStyle: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   pickerViewStyle: PropTypes.oneOfType([

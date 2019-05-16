@@ -3,7 +3,6 @@ import { TextStylePropTypes, ViewPropTypes } from 'react-native'
 
 export default {
   buttonsTextStyle: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   buttonsViewStyle: PropTypes.oneOfType([
@@ -11,7 +10,6 @@ export default {
     PropTypes.arrayOf(ViewPropTypes.style)
   ]),
   pickerItemStyle: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   pickerViewStyle: PropTypes.oneOfType([

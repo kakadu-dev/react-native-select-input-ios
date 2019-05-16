@@ -3,7 +3,6 @@ import { TextStylePropTypes, ViewPropTypes } from 'react-native'
 
 export default {
   buttonsTextStyle: PropTypes.oneOfType([
-    TextStylePropTypes,
     PropTypes.arrayOf(TextStylePropTypes)
   ]),
   buttonsViewStyle: PropTypes.oneOfType([
